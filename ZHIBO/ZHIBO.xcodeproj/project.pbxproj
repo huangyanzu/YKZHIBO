@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EC67C99030ABFDBBD27E603 /* Pods_ZHIBO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C723C324431F9E30EA839B3 /* Pods_ZHIBO.framework */; };
+		73F4F0222508B619002E0C60 /* YKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F4F0212508B619002E0C60 /* YKTabBarController.m */; };
+		73F4F0252508B647002E0C60 /* YKTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F4F0242508B647002E0C60 /* YKTabBar.m */; };
+		73F4F0282508CF44002E0C60 /* YKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F4F0272508CF44002E0C60 /* YKBaseViewController.m */; };
+		73F4F02C2508CF6A002E0C60 /* YKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F4F02A2508CF6A002E0C60 /* YKMainViewController.m */; };
+		73F4F02D2508CF6A002E0C60 /* YKMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73F4F02B2508CF6A002E0C60 /* YKMainViewController.xib */; };
+		73F4F0312508CFA3002E0C60 /* YKMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F4F02F2508CFA3002E0C60 /* YKMeViewController.m */; };
+		73F4F0322508CFA3002E0C60 /* YKMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73F4F0302508CFA3002E0C60 /* YKMeViewController.xib */; };
+		73F4F0352508D0ED002E0C60 /* YKBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F4F0342508D0ED002E0C60 /* YKBaseNavViewController.m */; };
+		73F4F0392508ECCD002E0C60 /* YKLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F4F0372508ECCD002E0C60 /* YKLaunchViewController.m */; };
+		73F4F03A2508ECCD002E0C60 /* YKLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73F4F0382508ECCD002E0C60 /* YKLaunchViewController.xib */; };
+		73FC99DD25080D6B001C6CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73FC99DB25080D6B001C6CB2 /* Main.storyboard */; };
+		73FC99DF25080D6D001C6CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73FC99DE25080D6D001C6CB2 /* Assets.xcassets */; };
+		73FC99E225080D6D001C6CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73FC99E025080D6D001C6CB2 /* LaunchScreen.storyboard */; };
+		73FC99E525080D6D001C6CB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FC99E425080D6D001C6CB2 /* main.m */; };
+		73FC9A0B25080FE3001C6CB2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FC99F925080FE3001C6CB2 /* SceneDelegate.m */; };
+		73FC9A0C25080FE3001C6CB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FC99FA25080FE3001C6CB2 /* AppDelegate.m */; };
+		73FC9A1125081AF0001C6CB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FC9A1025081AF0001C6CB2 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B47A86A98EB8BE44763B19E /* Pods-ZHIBO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHIBO.release.xcconfig"; path = "Target Support Files/Pods-ZHIBO/Pods-ZHIBO.release.xcconfig"; sourceTree = "<group>"; };
+		2C723C324431F9E30EA839B3 /* Pods_ZHIBO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHIBO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73F4F0202508B619002E0C60 /* YKTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKTabBarController.h; sourceTree = "<group>"; };
+		73F4F0212508B619002E0C60 /* YKTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKTabBarController.m; sourceTree = "<group>"; };
+		73F4F0232508B647002E0C60 /* YKTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKTabBar.h; sourceTree = "<group>"; };
+		73F4F0242508B647002E0C60 /* YKTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKTabBar.m; sourceTree = "<group>"; };
+		73F4F0262508CF44002E0C60 /* YKBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKBaseViewController.h; sourceTree = "<group>"; };
+		73F4F0272508CF44002E0C60 /* YKBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKBaseViewController.m; sourceTree = "<group>"; };
+		73F4F0292508CF6A002E0C60 /* YKMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKMainViewController.h; sourceTree = "<group>"; };
+		73F4F02A2508CF6A002E0C60 /* YKMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKMainViewController.m; sourceTree = "<group>"; };
+		73F4F02B2508CF6A002E0C60 /* YKMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YKMainViewController.xib; sourceTree = "<group>"; };
+		73F4F02E2508CFA3002E0C60 /* YKMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKMeViewController.h; sourceTree = "<group>"; };
+		73F4F02F2508CFA3002E0C60 /* YKMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKMeViewController.m; sourceTree = "<group>"; };
+		73F4F0302508CFA3002E0C60 /* YKMeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YKMeViewController.xib; sourceTree = "<group>"; };
+		73F4F0332508D0ED002E0C60 /* YKBaseNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKBaseNavViewController.h; sourceTree = "<group>"; };
+		73F4F0342508D0ED002E0C60 /* YKBaseNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKBaseNavViewController.m; sourceTree = "<group>"; };
+		73F4F0362508ECCD002E0C60 /* YKLaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKLaunchViewController.h; sourceTree = "<group>"; };
+		73F4F0372508ECCD002E0C60 /* YKLaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKLaunchViewController.m; sourceTree = "<group>"; };
+		73F4F0382508ECCD002E0C60 /* YKLaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YKLaunchViewController.xib; sourceTree = "<group>"; };
+		73FC99CF25080D6B001C6CB2 /* ZHIBO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHIBO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73FC99DC25080D6B001C6CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73FC99DE25080D6D001C6CB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73FC99E125080D6D001C6CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73FC99E325080D6D001C6CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73FC99E425080D6D001C6CB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73FC99F825080FE3001C6CB2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		73FC99F925080FE3001C6CB2 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		73FC99FA25080FE3001C6CB2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		73FC99FB25080FE3001C6CB2 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		73FC9A0D250813D2001C6CB2 /* Zhibo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Zhibo.pch; sourceTree = "<group>"; };
+		73FC9A0E25081A91001C6CB2 /* YKMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKMacros.h; sourceTree = "<group>"; };
+		73FC9A0F25081AF0001C6CB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		73FC9A1025081AF0001C6CB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CD8B3FF83E789826894B562 /* Pods-ZHIBO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHIBO.debug.xcconfig"; path = "Target Support Files/Pods-ZHIBO/Pods-ZHIBO.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73FC99CC25080D6B001C6CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC67C99030ABFDBBD27E603 /* Pods_ZHIBO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C89308FC9089A8D35600887 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CD8B3FF83E789826894B562 /* Pods-ZHIBO.debug.xcconfig */,
+				2B47A86A98EB8BE44763B19E /* Pods-ZHIBO.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1D7B1CA56BCBC05A4AA8C99D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C723C324431F9E30EA839B3 /* Pods_ZHIBO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73FC99C625080D6B001C6CB2 = {
+			isa = PBXGroup;
+			children = (
+				73FC99D125080D6B001C6CB2 /* ZHIBO */,
+				73FC99D025080D6B001C6CB2 /* Products */,
+				0C89308FC9089A8D35600887 /* Pods */,
+				1D7B1CA56BCBC05A4AA8C99D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		73FC99D025080D6B001C6CB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73FC99CF25080D6B001C6CB2 /* ZHIBO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73FC99D125080D6B001C6CB2 /* ZHIBO */ = {
+			isa = PBXGroup;
+			children = (
+				73FC99EB25080FE3001C6CB2 /* Classes */,
+				73FC99DB25080D6B001C6CB2 /* Main.storyboard */,
+				73FC99DE25080D6D001C6CB2 /* Assets.xcassets */,
+				73FC99E025080D6D001C6CB2 /* LaunchScreen.storyboard */,
+				73FC99E325080D6D001C6CB2 /* Info.plist */,
+				73FC99E425080D6D001C6CB2 /* main.m */,
+			);
+			path = ZHIBO;
+			sourceTree = "<group>";
+		};
+		73FC99EB25080FE3001C6CB2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				73FC99EC25080FE3001C6CB2 /* Launch */,
+				73FC99F125080FE3001C6CB2 /* Show */,
+				73FC99F625080FE3001C6CB2 /* NetWork */,
+				73FC99F725080FE3001C6CB2 /* Other */,
+				73FC99FC25080FE3001C6CB2 /* Me */,
+				73FC9A0125080FE3001C6CB2 /* Live */,
+				73FC9A0625080FE3001C6CB2 /* Lib */,
+				73FC9A0725080FE3001C6CB2 /* Helper */,
+				73FC9A0A25080FE3001C6CB2 /* Base */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		73FC99EC25080FE3001C6CB2 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				73FC99ED25080FE3001C6CB2 /* Handler */,
+				73FC99EE25080FE3001C6CB2 /* Controller */,
+				73FC99EF25080FE3001C6CB2 /* Model */,
+				73FC99F025080FE3001C6CB2 /* View */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		73FC99ED25080FE3001C6CB2 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		73FC99EE25080FE3001C6CB2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				73F4F0362508ECCD002E0C60 /* YKLaunchViewController.h */,
+				73F4F0372508ECCD002E0C60 /* YKLaunchViewController.m */,
+				73F4F0382508ECCD002E0C60 /* YKLaunchViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		73FC99EF25080FE3001C6CB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73FC99F025080FE3001C6CB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73FC99F125080FE3001C6CB2 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				73FC99F225080FE3001C6CB2 /* Handler */,
+				73FC99F325080FE3001C6CB2 /* Controller */,
+				73FC99F425080FE3001C6CB2 /* Model */,
+				73FC99F525080FE3001C6CB2 /* View */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		73FC99F225080FE3001C6CB2 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		73FC99F325080FE3001C6CB2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				73F4F0292508CF6A002E0C60 /* YKMainViewController.h */,
+				73F4F02A2508CF6A002E0C60 /* YKMainViewController.m */,
+				73F4F02B2508CF6A002E0C60 /* YKMainViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		73FC99F425080FE3001C6CB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73FC99F525080FE3001C6CB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73FC99F625080FE3001C6CB2 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		73FC99F725080FE3001C6CB2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				73FC99F825080FE3001C6CB2 /* AppDelegate.h */,
+				73FC99FA25080FE3001C6CB2 /* AppDelegate.m */,
+				73FC99FB25080FE3001C6CB2 /* SceneDelegate.h */,
+				73FC99F925080FE3001C6CB2 /* SceneDelegate.m */,
+				73FC9A0F25081AF0001C6CB2 /* ViewController.h */,
+				73FC9A1025081AF0001C6CB2 /* ViewController.m */,
+				73FC9A0D250813D2001C6CB2 /* Zhibo.pch */,
+				73FC9A0E25081A91001C6CB2 /* YKMacros.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		73FC99FC25080FE3001C6CB2 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				73FC99FD25080FE3001C6CB2 /* Handler */,
+				73FC99FE25080FE3001C6CB2 /* Controller */,
+				73FC99FF25080FE3001C6CB2 /* Model */,
+				73FC9A0025080FE3001C6CB2 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		73FC99FD25080FE3001C6CB2 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		73FC99FE25080FE3001C6CB2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				73F4F02E2508CFA3002E0C60 /* YKMeViewController.h */,
+				73F4F02F2508CFA3002E0C60 /* YKMeViewController.m */,
+				73F4F0302508CFA3002E0C60 /* YKMeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		73FC99FF25080FE3001C6CB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73FC9A0025080FE3001C6CB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73FC9A0125080FE3001C6CB2 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				73FC9A0225080FE3001C6CB2 /* Handler */,
+				73FC9A0325080FE3001C6CB2 /* Controller */,
+				73FC9A0425080FE3001C6CB2 /* Model */,
+				73FC9A0525080FE3001C6CB2 /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		73FC9A0225080FE3001C6CB2 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		73FC9A0325080FE3001C6CB2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		73FC9A0425080FE3001C6CB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73FC9A0525080FE3001C6CB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73FC9A0625080FE3001C6CB2 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		73FC9A0725080FE3001C6CB2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				73FC9A0825080FE3001C6CB2 /* Tools */,
+				73FC9A0925080FE3001C6CB2 /* Category */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		73FC9A0825080FE3001C6CB2 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		73FC9A0925080FE3001C6CB2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		73FC9A0A25080FE3001C6CB2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				73F4F0202508B619002E0C60 /* YKTabBarController.h */,
+				73F4F0212508B619002E0C60 /* YKTabBarController.m */,
+				73F4F0232508B647002E0C60 /* YKTabBar.h */,
+				73F4F0242508B647002E0C60 /* YKTabBar.m */,
+				73F4F0262508CF44002E0C60 /* YKBaseViewController.h */,
+				73F4F0272508CF44002E0C60 /* YKBaseViewController.m */,
+				73F4F0332508D0ED002E0C60 /* YKBaseNavViewController.h */,
+				73F4F0342508D0ED002E0C60 /* YKBaseNavViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73FC99CE25080D6B001C6CB2 /* ZHIBO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73FC99E825080D6D001C6CB2 /* Build configuration list for PBXNativeTarget "ZHIBO" */;
+			buildPhases = (
+				261E5EB8193BC741A85BF758 /* [CP] Check Pods Manifest.lock */,
+				73FC99CB25080D6B001C6CB2 /* Sources */,
+				73FC99CC25080D6B001C6CB2 /* Frameworks */,
+				73FC99CD25080D6B001C6CB2 /* Resources */,
+				BAAC6CEDB92A7D7A4FBBC24C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHIBO;
+			productName = ZHIBO;
+			productReference = 73FC99CF25080D6B001C6CB2 /* ZHIBO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73FC99C725080D6B001C6CB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YK;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = aZu;
+				TargetAttributes = {
+					73FC99CE25080D6B001C6CB2 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 73FC99CA25080D6B001C6CB2 /* Build configuration list for PBXProject "ZHIBO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73FC99C625080D6B001C6CB2;
+			productRefGroup = 73FC99D025080D6B001C6CB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73FC99CE25080D6B001C6CB2 /* ZHIBO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73FC99CD25080D6B001C6CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73F4F0322508CFA3002E0C60 /* YKMeViewController.xib in Resources */,
+				73F4F03A2508ECCD002E0C60 /* YKLaunchViewController.xib in Resources */,
+				73FC99E225080D6D001C6CB2 /* LaunchScreen.storyboard in Resources */,
+				73F4F02D2508CF6A002E0C60 /* YKMainViewController.xib in Resources */,
+				73FC99DF25080D6D001C6CB2 /* Assets.xcassets in Resources */,
+				73FC99DD25080D6B001C6CB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		261E5EB8193BC741A85BF758 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZHIBO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAAC6CEDB92A7D7A4FBBC24C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZHIBO/Pods-ZHIBO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZHIBO/Pods-ZHIBO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZHIBO/Pods-ZHIBO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73FC99CB25080D6B001C6CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73F4F0222508B619002E0C60 /* YKTabBarController.m in Sources */,
+				73F4F02C2508CF6A002E0C60 /* YKMainViewController.m in Sources */,
+				73F4F0252508B647002E0C60 /* YKTabBar.m in Sources */,
+				73FC9A0C25080FE3001C6CB2 /* AppDelegate.m in Sources */,
+				73FC9A0B25080FE3001C6CB2 /* SceneDelegate.m in Sources */,
+				73F4F0312508CFA3002E0C60 /* YKMeViewController.m in Sources */,
+				73F4F0392508ECCD002E0C60 /* YKLaunchViewController.m in Sources */,
+				73FC9A1125081AF0001C6CB2 /* ViewController.m in Sources */,
+				73FC99E525080D6D001C6CB2 /* main.m in Sources */,
+				73F4F0282508CF44002E0C60 /* YKBaseViewController.m in Sources */,
+				73F4F0352508D0ED002E0C60 /* YKBaseNavViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		73FC99DB25080D6B001C6CB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73FC99DC25080D6B001C6CB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		73FC99E025080D6D001C6CB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73FC99E125080D6D001C6CB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73FC99E625080D6D001C6CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		73FC99E725080D6D001C6CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73FC99E925080D6D001C6CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CD8B3FF83E789826894B562 /* Pods-ZHIBO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V5R4DYQUXA;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZHIBO/Classes/Other/Zhibo.pch";
+				INFOPLIST_FILE = ZHIBO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myself.ZHIBO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		73FC99EA25080D6D001C6CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B47A86A98EB8BE44763B19E /* Pods-ZHIBO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V5R4DYQUXA;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZHIBO/Classes/Other/Zhibo.pch";
+				INFOPLIST_FILE = ZHIBO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myself.ZHIBO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73FC99CA25080D6B001C6CB2 /* Build configuration list for PBXProject "ZHIBO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73FC99E625080D6D001C6CB2 /* Debug */,
+				73FC99E725080D6D001C6CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73FC99E825080D6D001C6CB2 /* Build configuration list for PBXNativeTarget "ZHIBO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73FC99E925080D6D001C6CB2 /* Debug */,
+				73FC99EA25080D6D001C6CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73FC99C725080D6B001C6CB2 /* Project object */;
+}
