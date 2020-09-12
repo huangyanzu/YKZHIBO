@@ -9,6 +9,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YKMainViewController">
             <connections>
+                <outlet property="contentScrollView" destination="p7B-JW-bLE" id="Gw0-uJ-LY3"/>
+                <outlet property="scrollViewWidthCons" destination="rfO-nV-aKb" id="w7i-HJ-kUM"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -17,30 +19,33 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HGT-Qx-UhD">
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p7B-JW-bLE">
                     <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                     <subviews>
-                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nBg-Eb-iLh">
-                            <rect key="frame" x="66" y="287" width="240" height="128"/>
-                            <viewLayoutGuide key="contentLayoutGuide" id="eLZ-i2-kS8"/>
-                            <viewLayoutGuide key="frameLayoutGuide" id="R6B-gV-cNw"/>
-                        </scrollView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e9F-ol-Q6g">
+                            <rect key="frame" x="0.0" y="0.0" width="1000" height="818"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="1000" id="rfO-nV-aKb"/>
+                            </constraints>
+                        </view>
                     </subviews>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                     <constraints>
-                        <constraint firstItem="nBg-Eb-iLh" firstAttribute="leading" secondItem="HGT-Qx-UhD" secondAttribute="leading" id="0ie-h3-rXy"/>
-                        <constraint firstAttribute="bottom" secondItem="nBg-Eb-iLh" secondAttribute="bottom" id="6dx-0c-jz4"/>
-                        <constraint firstItem="nBg-Eb-iLh" firstAttribute="top" secondItem="HGT-Qx-UhD" secondAttribute="top" id="Af8-iV-83v"/>
-                        <constraint firstAttribute="trailing" secondItem="nBg-Eb-iLh" secondAttribute="trailing" id="r3J-6Y-e8F"/>
+                        <constraint firstAttribute="trailing" secondItem="e9F-ol-Q6g" secondAttribute="trailing" id="2iX-Le-8Yd"/>
+                        <constraint firstItem="e9F-ol-Q6g" firstAttribute="centerY" secondItem="p7B-JW-bLE" secondAttribute="centerY" id="WFI-g9-Q0q"/>
+                        <constraint firstItem="e9F-ol-Q6g" firstAttribute="leading" secondItem="p7B-JW-bLE" secondAttribute="leading" id="s4v-35-YXx"/>
+                        <constraint firstAttribute="bottom" secondItem="e9F-ol-Q6g" secondAttribute="bottom" id="un5-qf-Zhx"/>
+                        <constraint firstItem="e9F-ol-Q6g" firstAttribute="top" secondItem="p7B-JW-bLE" secondAttribute="top" id="utM-Av-Tpz"/>
                     </constraints>
-                </view>
+                    <viewLayoutGuide key="contentLayoutGuide" id="KYA-2g-HDb"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="72L-1u-5wc"/>
+                </scrollView>
             </subviews>
-            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
             <constraints>
-                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="HGT-Qx-UhD" secondAttribute="bottom" id="0ph-xa-bAX"/>
-                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="HGT-Qx-UhD" secondAttribute="trailing" id="168-5w-ece"/>
-                <constraint firstItem="HGT-Qx-UhD" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="8oh-fd-POu"/>
-                <constraint firstItem="HGT-Qx-UhD" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="K9U-Zk-8kr"/>
+                <constraint firstItem="p7B-JW-bLE" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="Mdk-Dh-OxR"/>
+                <constraint firstItem="p7B-JW-bLE" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="S76-bc-rgf"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="p7B-JW-bLE" secondAttribute="bottom" id="cGj-Rf-RPv"/>
+                <constraint firstItem="p7B-JW-bLE" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="hh9-kO-rIh"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
             <point key="canvasLocation" x="131.8840579710145" y="145.98214285714286"/>

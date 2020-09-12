@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3EC67C99030ABFDBBD27E603 /* Pods_ZHIBO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C723C324431F9E30EA839B3 /* Pods_ZHIBO.framework */; };
+		73282139250BAE7E00FE1801 /* YKFocuseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73282137250BAE7E00FE1801 /* YKFocuseViewController.m */; };
+		7328213A250BAE7E00FE1801 /* YKFocuseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73282138250BAE7E00FE1801 /* YKFocuseViewController.xib */; };
+		7328213E250BAE9C00FE1801 /* YKHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7328213C250BAE9C00FE1801 /* YKHotViewController.m */; };
+		7328213F250BAE9C00FE1801 /* YKHotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7328213D250BAE9C00FE1801 /* YKHotViewController.xib */; };
+		73282143250BAEBA00FE1801 /* YKNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73282141250BAEBA00FE1801 /* YKNearViewController.m */; };
+		73282144250BAEBA00FE1801 /* YKNearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73282142250BAEBA00FE1801 /* YKNearViewController.xib */; };
 		73F4F0222508B619002E0C60 /* YKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F4F0212508B619002E0C60 /* YKTabBarController.m */; };
 		73F4F0252508B647002E0C60 /* YKTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F4F0242508B647002E0C60 /* YKTabBar.m */; };
 		73F4F0282508CF44002E0C60 /* YKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F4F0272508CF44002E0C60 /* YKBaseViewController.m */; };
@@ -30,6 +36,15 @@
 /* Begin PBXFileReference section */
 		2B47A86A98EB8BE44763B19E /* Pods-ZHIBO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHIBO.release.xcconfig"; path = "Target Support Files/Pods-ZHIBO/Pods-ZHIBO.release.xcconfig"; sourceTree = "<group>"; };
 		2C723C324431F9E30EA839B3 /* Pods_ZHIBO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHIBO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73282136250BAE7E00FE1801 /* YKFocuseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKFocuseViewController.h; sourceTree = "<group>"; };
+		73282137250BAE7E00FE1801 /* YKFocuseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKFocuseViewController.m; sourceTree = "<group>"; };
+		73282138250BAE7E00FE1801 /* YKFocuseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YKFocuseViewController.xib; sourceTree = "<group>"; };
+		7328213B250BAE9C00FE1801 /* YKHotViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKHotViewController.h; sourceTree = "<group>"; };
+		7328213C250BAE9C00FE1801 /* YKHotViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKHotViewController.m; sourceTree = "<group>"; };
+		7328213D250BAE9C00FE1801 /* YKHotViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YKHotViewController.xib; sourceTree = "<group>"; };
+		73282140250BAEBA00FE1801 /* YKNearViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKNearViewController.h; sourceTree = "<group>"; };
+		73282141250BAEBA00FE1801 /* YKNearViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKNearViewController.m; sourceTree = "<group>"; };
+		73282142250BAEBA00FE1801 /* YKNearViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YKNearViewController.xib; sourceTree = "<group>"; };
 		73F4F0202508B619002E0C60 /* YKTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKTabBarController.h; sourceTree = "<group>"; };
 		73F4F0212508B619002E0C60 /* YKTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKTabBarController.m; sourceTree = "<group>"; };
 		73F4F0232508B647002E0C60 /* YKTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKTabBar.h; sourceTree = "<group>"; };
@@ -206,6 +221,15 @@
 				73F4F0292508CF6A002E0C60 /* YKMainViewController.h */,
 				73F4F02A2508CF6A002E0C60 /* YKMainViewController.m */,
 				73F4F02B2508CF6A002E0C60 /* YKMainViewController.xib */,
+				73282136250BAE7E00FE1801 /* YKFocuseViewController.h */,
+				73282137250BAE7E00FE1801 /* YKFocuseViewController.m */,
+				73282138250BAE7E00FE1801 /* YKFocuseViewController.xib */,
+				7328213B250BAE9C00FE1801 /* YKHotViewController.h */,
+				7328213C250BAE9C00FE1801 /* YKHotViewController.m */,
+				7328213D250BAE9C00FE1801 /* YKHotViewController.xib */,
+				73282140250BAEBA00FE1801 /* YKNearViewController.h */,
+				73282141250BAEBA00FE1801 /* YKNearViewController.m */,
+				73282142250BAEBA00FE1801 /* YKNearViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -432,11 +456,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73282144250BAEBA00FE1801 /* YKNearViewController.xib in Resources */,
+				7328213A250BAE7E00FE1801 /* YKFocuseViewController.xib in Resources */,
 				73F4F0322508CFA3002E0C60 /* YKMeViewController.xib in Resources */,
 				73F4F03A2508ECCD002E0C60 /* YKLaunchViewController.xib in Resources */,
 				73FC99E225080D6D001C6CB2 /* LaunchScreen.storyboard in Resources */,
 				73F4F02D2508CF6A002E0C60 /* YKMainViewController.xib in Resources */,
 				73FC99DF25080D6D001C6CB2 /* Assets.xcassets in Resources */,
+				7328213F250BAE9C00FE1801 /* YKHotViewController.xib in Resources */,
 				73FC99DD25080D6B001C6CB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,12 +520,15 @@
 				73F4F0222508B619002E0C60 /* YKTabBarController.m in Sources */,
 				73F4F02C2508CF6A002E0C60 /* YKMainViewController.m in Sources */,
 				73F4F0252508B647002E0C60 /* YKTabBar.m in Sources */,
+				73282139250BAE7E00FE1801 /* YKFocuseViewController.m in Sources */,
+				73282143250BAEBA00FE1801 /* YKNearViewController.m in Sources */,
 				73FC9A0C25080FE3001C6CB2 /* AppDelegate.m in Sources */,
 				73FC9A0B25080FE3001C6CB2 /* SceneDelegate.m in Sources */,
 				73F4F0312508CFA3002E0C60 /* YKMeViewController.m in Sources */,
 				73F4F0392508ECCD002E0C60 /* YKLaunchViewController.m in Sources */,
 				73FC9A1125081AF0001C6CB2 /* ViewController.m in Sources */,
 				73FC99E525080D6D001C6CB2 /* main.m in Sources */,
+				7328213E250BAE9C00FE1801 /* YKHotViewController.m in Sources */,
 				73F4F0282508CF44002E0C60 /* YKBaseViewController.m in Sources */,
 				73F4F0352508D0ED002E0C60 /* YKBaseNavViewController.m in Sources */,
 			);
